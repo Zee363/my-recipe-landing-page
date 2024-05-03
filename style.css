@@ -1,0 +1,59 @@
+img {
+  width: 95%;
+  height: 75vh;
+  margin-top: 25px;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+
+.container {
+  background-color: #E8EFCF;
+  border-radius: 2px;
+}
+
+.ingredients, .aside {
+ display: flex;
+}
+
+.ingredients {
+  flex: 0;
+}
+h1, h2, h3, .img-container {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.img-container {
+  position: relative;
+}
+
+h1{
+  position: absolute;
+  background-color: floralwhite;
+  top: 236px;
+  left: -12px;
+  font-size: 45px;
+}
+
+.instructions {
+  padding-top: 5px;
+}
+
+.main-heading{
+  position: absolute;
+  background-color: floralwhite;
+  left: 24px;
+  top: 282px;
+  font-size: 33px;
+  font-weight: 400;
+}
+
+aside {
+flex: 00 auto;
+margin-left: 20px;
+background-color: #AFD198;
+border-radius: 4px;
+height: fit-content;
+}
