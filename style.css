@@ -56,7 +56,12 @@ margin-left: 20px;
 background-color: #AFD198;
 border-radius: 4px;
 height: fit-content;
+padding-left: 5px;
+padding-right: 8px;
+padding-bottom: 7px;
+padding-top: 7px;
 }
+
 
 .about-h3 {
   font-family: "Playfair Display", serif;
