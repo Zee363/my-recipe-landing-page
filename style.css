@@ -68,7 +68,7 @@ padding-top: 7px;
   font-optical-sizing: auto;
   font-weight: bolder;
   font-style: normal;
-  text-align: center;
+  text-align: center !important;
 }
 
 .about-container {
@@ -129,5 +129,5 @@ padding-top: 7px;
  }
 
  .reviews-h2 {
-  text-align: center;
+  text-align: center !important;
  }
