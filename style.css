@@ -63,7 +63,7 @@ padding-top: 7px;
 }
 
 
-.about-h3 {
+.about-h3, .reviews-h2 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: bolder;
