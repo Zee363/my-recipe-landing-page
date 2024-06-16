@@ -8,13 +8,15 @@ img {
 
 .container {
   background-color: #E8EFCF;
-  border-radius: 2px;
+  border-radius: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .topnav {
   background-color: whitesmoke;
   overflow: hidden;
-  padding: 12px ;
+  padding: 12px;
 }
 
 .topnav a {
@@ -22,9 +24,9 @@ img {
   text-align: center;
   text-decoration: none;
   padding: 74px 98px;
-  font-family: "Merriweather", serif;
-  font-weight: bold;
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: initial;
 }
 
 .ingredients, .aside {
@@ -37,7 +39,7 @@ img {
 h1, h2, h3, .img-container {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -57,7 +59,7 @@ h1{
   padding-top: 5px;
 }
 
-.main-heading{
+.main-heading {
   position: absolute;
   background-color: floralwhite;
   left: 24px;
@@ -68,18 +70,17 @@ h1{
 
 aside {
 flex: 00 auto;
-margin-left: 20px;
+margin-left: 30px;
 background-color: #AFD198;
 border-radius: 4px;
 height: fit-content;
 padding-left: 5px;
 padding-right: 8px;
 padding-bottom: 7px;
-padding-top: 7px;
+padding-top: 3px;
 }
 
-
-.about-h3, .reviews-h2 {
+.about-h3 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: bolder;
@@ -134,18 +135,8 @@ padding-top: 7px;
   padding-bottom: 2px;
  }
 
- .reviews-container {
-  background-color: #E8EFCF;
-  border-radius: 4px;
-  margin-left: 55px;
-  margin-right: 55px;
-  margin-top: 35px;
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-bottom: 25px;
-  padding-top: 5px;
- }
-
- .reviews-h2 {
-  text-align: center !important;
+ @media screen and (min-width: 600px) and (max-width: 1000px) {
+  .topnav a{
+    padding: 12px 14px ;
+  }
  }
