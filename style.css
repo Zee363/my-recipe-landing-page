@@ -100,6 +100,20 @@ padding-top: 3px;
   padding-top: 6px;
 }
 
+.about-img {
+  width: 43vw;
+  height: 60vh;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 9px solid #AFD198;
+}
+
+.img-text {
+  text-align: center;
+  margin-top: 0.5px;
+  padding-top: 0.5px;
+}
 .contact-container {
   background-color: #E8EFCF;
   border-radius: 4px;
@@ -133,6 +147,11 @@ padding-top: 3px;
   margin: 0;
   padding-top: 3px;
   padding-bottom: 2px;
+ } 
+
+ .fa-envelope, .fa-x-twitter, .fa-linkedin {
+  font-size: 25px;
+  padding-top: 15px;
  }
 
  @media screen and (min-width: 600px) and (max-width: 1000px) {
