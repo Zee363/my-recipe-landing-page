@@ -153,9 +153,51 @@ padding-top: 3px;
   font-size: 25px;
   padding-top: 15px;
  }
-
- @media screen and (min-width: 600px) and (max-width: 1000px) {
-  .topnav a{
-    padding: 12px 14px ;
+    
+@media screen and (max-width: 768px) {
+  .topnav a {
+    display: block;
+    padding: 10px;
   }
- }
+
+  .img-container img {
+    width: 100%;
+  }
+
+  .ingredients {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ingredients ol,
+  .ingredients aside {
+    min-width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .topnav a {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .img-container h1, .main-heading {
+    font-size: 1.6em;
+  }
+
+  .main-heading {
+    top: 286px;
+  }
+  .instructions,
+  .ingredients h3 {
+    font-size: 1.5em;
+  }
+
+  .ingredients ol,
+  .ingredients aside {
+    min-width: 100%;
+    margin-right: 0;
+    padding: 0 10px;
+  }
+}
